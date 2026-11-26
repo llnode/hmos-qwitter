@@ -1,0 +1,64 @@
+{
+  "color": [
+    {
+      "name": "reply_glass_edge",
+      "value": "#59FFFFFF"
+    },
+    {
+      "name": "reply_publish",
+      "value": "#168B80"
+    },
+    {
+      "name": "reply_glass_tint",
+      "value": "#C41C1C1E"
+    },
+    {
+      "name": "reply_glass_ink",
+      "value": "#F4F4F5"
+    },
+    {
+      "name": "reply_glass_muted",
+      "value": "#C2C2C5"
+    },
+    {
+      "name": "ink",
+      "value": "#EFF3F4"
+    },
+    {
+      "name": "muted",
+      "value": "#9DA6AD"
+    },
+    {
+      "name": "paper",
+      "value": "#000000"
+    },
+    {
+      "name": "soft",
+      "value": "#0E1013"
+    },
+    {
+      "name": "chat_outgoing",
+      "value": "#26292D"
+    },
+    {
+      "name": "rule",
+      "value": "#2F3336"
+    },
+    {
+      "name": "header_idle",
+      "value": "#0E1013"
+    },
+    {
+      "name": "header_scroll",
+      "value": "#A80E1013"
+    },
+    {
+      "name": "drawer_shadow",
+      "value": "#65000000"
+    },
+    {
+      "name": "quote_paper",
+      "value": "#0E1013"
+    }
+  ]
+}

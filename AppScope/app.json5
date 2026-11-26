@@ -1,0 +1,60 @@
+{
+  "app": {
+    "bundleName": "com.cex.qwitter",
+    "vendor": "Qwitter",
+    "versionCode": 255,
+    "versionName": "0.4.102",
+    "icon": "$media:app_icon",
+    "label": "$string:app_name",
+    "alternateIcons": [
+      {
+        "name": "qwitter_twitter_blue",
+        "icon": "$media:app_icon_twitter_blue"
+      },
+      {
+        "name": "qwitter_sky",
+        "icon": "$media:app_icon_sky"
+      },
+      {
+        "name": "qwitter_midnight",
+        "icon": "$media:app_icon_midnight"
+      },
+      {
+        "name": "qwitter_jade",
+        "icon": "$media:app_icon_jade"
+      },
+      {
+        "name": "qwitter_matcha",
+        "icon": "$media:app_icon_matcha"
+      },
+      {
+        "name": "qwitter_lavender",
+        "icon": "$media:app_icon_lavender"
+      },
+      {
+        "name": "qwitter_coral",
+        "icon": "$media:app_icon_coral"
+      },
+      {
+        "name": "qwitter_amber",
+        "icon": "$media:app_icon_amber"
+      },
+      {
+        "name": "qwitter_plum",
+        "icon": "$media:app_icon_plum"
+      },
+      {
+        "name": "qwitter_silver",
+        "icon": "$media:app_icon_silver"
+      },
+      {
+        "name": "qwitter_ink",
+        "icon": "$media:app_icon_ink"
+      },
+      {
+        "name": "qwitter_ivory",
+        "icon": "$media:app_icon_ivory"
+      }
+    ]
+  }
+}

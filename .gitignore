@@ -1,0 +1,25 @@
+.DS_Store
+.idea/
+.hvigor/
+.ohpm/
+oh_modules/
+node_modules/
+build/
+local.properties
+*.hap
+*.app
+*.p12
+*.p7b
+*.cer
+
+# Native caches and local QA handoffs
+.cxx/
+.cmake/
+handoff/
+evidence/
+*.log
+*.key
+*.pem
+*.keystore
+.env
+.env.*

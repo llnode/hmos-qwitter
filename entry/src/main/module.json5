@@ -1,0 +1,30 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "mainElement": "EntryAbility",
+    "deviceTypes": ["phone", "tablet", "2in1"],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "requestPermissions": [
+      { "name": "ohos.permission.INTERNET" },
+      { "name": "ohos.permission.KEEP_BACKGROUND_RUNNING" },
+      { "name": "ohos.permission.DETECT_GESTURE" }
+    ],
+    "abilities": [{
+      "name": "EntryAbility",
+      "srcEntry": "./ets/EntryAbility.ets",
+      "label": "$string:app_name",
+      "icon": "$media:app_icon",
+      "startWindowIcon": "$media:startup_placeholder",
+      "startWindowBackground": "$color:paper",
+      "exported": true,
+      "backgroundModes": ["dataTransfer"],
+      "skills": [{
+        "entities": ["entity.system.home"],
+        "actions": ["ohos.want.action.home"]
+      }]
+    }]
+  }
+}

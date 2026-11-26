@@ -1,0 +1,8 @@
+{
+  "name": "entry",
+  "version": "0.1.0",
+  "modelVersion": "6.0.0",
+  "dependencies": {
+    "libqwitter_media.so": "file:./src/main/cpp/types/libqwitter_media"
+  }
+}

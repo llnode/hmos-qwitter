@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5.0)
+project(qwitter_media)
+add_library(qwitter_media SHARED media_remux.cpp)
+target_compile_features(qwitter_media PRIVATE cxx_std_17)
+target_link_libraries(qwitter_media PUBLIC libace_napi.z.so libnative_media_avsource.so libnative_media_avdemuxer.so libnative_media_avmuxer.so libnative_media_core.so libnative_media_codecbase.so)
