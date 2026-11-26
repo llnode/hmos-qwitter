@@ -1,5 +1,7 @@
 # Qwitter for HarmonyOS
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Qwitter（趣推，原名 Qyx）是使用 ArkTS、ArkUI、ArkWeb 和鸿蒙关系型数据库 RDB 实现的 X 客户端。
 
 本仓库包含 **0.4.102** 源码。已发布的安装包与更新记录见 [GitHub Releases](https://github.com/llnode/hmos-qwitter/releases)。源码版本与最新 Release 安装包版本可能不同。
@@ -73,3 +75,7 @@ npm test
 ```
 
 自动化测试不能代替真机验收。登录、发帖、回复、通知、私信、媒体播放及相册保存仍需在目标设备检查；发送测试内容会实际提交到 X。
+
+## 开源许可
+
+本项目源代码公开，采用 [MIT License](LICENSE)。
